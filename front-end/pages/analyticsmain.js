@@ -1,0 +1,16 @@
+import Layout from "../components/Layout";
+import Head from "next/head";
+import withAuth from "../auth/prodectedroutes"
+function home() {
+  return (
+    <div>
+      <Layout />
+      <h1 style={{margin:"200px"}}>Analytics Page</h1>
+      <Head>
+        <title>Analytics Page | Zoho Expenses</title>
+      </Head>
+    </div>
+  );
+}
+
+export default withAuth(home);

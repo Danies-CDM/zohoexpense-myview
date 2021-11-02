@@ -1,0 +1,214 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #3e4566;
+}
+
+.brandlogo {
+  color: whitesmoke;
+  padding: 3px;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  width: 200px;
+  height: 100%;
+  text-align: left;
+  background: #f3f3fa;
+  padding: 10px 0px;
+  position: fixed;
+  top: 7.45%;
+  border-right: 1px solid rgba(202, 201, 201, 0.5);
+}
+
+.wrapper .sidebar h2 {
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+
+}
+
+.wrapper .sidebar ul li {
+  padding: 10px;
+  padding-left: 20px;
+  display: grid;
+  border-radius: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+  grid-template-columns: 1fr 1fr;
+  justify-content: start;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.wrapper .sidebar ul li a {
+  color: black;
+  display: flex;
+  font-size: 12pt;
+  transform: translateX(-40px);
+  text-decoration: none;
+}
+.ul li:hover > .a {
+  color: #ffffff;
+}
+.wrapper .sidebar ul li:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 11px rgb(189, 187, 187);
+  background-color: rgb(114, 116, 224);
+  border: 1px solid whitesmoke;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  background-color: #333956;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%  0 ;
+}
+.topLogo{
+  font-size: 1.2rem;
+  color: rgb(110, 117, 156);
+  
+  text-align: left;
+  width: 25%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav ol {
+  display: flex;
+  list-style: none;
+}
+
+.nav ol li {
+  margin: 0 10px;
+}
+
+.nav ol li a h4 {
+  color: rgb(110, 117, 156);
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.nav ol li a h4 span {
+  letter-spacing: 1px;
+}
+.nav ol li a h4 b {
+  color: rgb(110, 117, 156);
+  letter-spacing: 1px;
+}
+.nav ol li a h5 {
+  color: rgb(110, 117, 156);
+
+  letter-spacing: 1px;
+  /* padding: 2px 0px 0 4px; */
+}
+.search_box{
+  height: 100%;
+  display: flex;
+  width: 350px;
+  justify-content: start;
+  /* align-items: center; */
+}
+.nav .search_box input {
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.09);
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.nav .search_box input:hover {
+  border: none;
+  outline: none;
+  background: white;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 20px;
+  width: 350px;
+}
+
+.nav .search_box span {
+  color: gray;
+  font-size: 20px;
+  /* height: 35%; */
+  background-color: rgba(255, 255, 255, 0.09);
+  padding: 0px 5px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.head {
+  color: #594f8d;
+  font-size: 40px;
+}
+.navhead {
+  margin-left: 450px;
+  justify-content: center;
+  text-align: center;
+  border-style: groove;
+  width: 50%;
+  padding: 5px;
+  margin-top: 10px;
+}
+.para {
+
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.trip {
+  margin-left: 100px;
+  padding: 40px;
+  /* background-color: purple; */
+  display: flex;
+  background-color: EFF5F5;
+  width: 65%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.expense {
+  margin-left: 100px;
+  padding: 40px;
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.addnewtrip {
+  background-color: #4d79ff;
+  color: #ffffff;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  margin-left: 120px;
+  padding: 5px;
+
+  width: 68%;
+}
+.addnewexpense {
+  background-color: #4d79ff;
+  color: #ffffff;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  margin-left: 75px;
+  padding: 5px;
+}
+.adddetails {
+  margin-left: 300px;
+  margin-right: 100px;
+  background-color: rgb(224, 255, 255);
+  width: 70%;
+  margin-top: 50px;
+}
